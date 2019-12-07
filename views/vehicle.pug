@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Vehículos
+        link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+        link(rel="stylesheet", href="css/index.css")
+        link(rel='shortcut icon', href='img/stormtrooper.ico', type='image/x-icon')
+    body#vehiculos
+        .container
+            ul.nav.mt-3
+                li.nav-item
+                    a(href='/')
+                        img#logo(src="img/logo1.png", alt="Logo")
+                li.nav-item
+                    a.nav-link(href='people') Personajes
+                li.nav-item
+                    a.nav-link(href='planet') Planetas
+                li.nav-item
+                    a.nav-link(href='vehicle') Vehículos
+                li.nav-item
+                    a.nav-link(href='contacto') Contacto
+            h1.text-center.mt-5 Vehículos
+            .container.table-responsive.mt-5
+                table.table.text-center
+                    thead
+                        tr
+                            th(scope='col') 
+                                img#tableimg(src="img/millennium.png")
+                            th(scope='col') Nombre
+                            th(scope='col') Modelo
+                            th(scope='col') Fabricante
+                            th(scope='col') Altura
+                            th(scope='col') Eliminar
+                    tbody#tbody
+            .container#button
+                input#button2.btn.btn-success.d-none(type='reset', value='Volver a cargar Vehiculos')
+        script(src='https://code.jquery.com/jquery-3.4.0.min.js')
+        script(src="js/vehicle.js")
+    

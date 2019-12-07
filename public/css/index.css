@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Press+Start+2P|Varela+Round|Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+
+body{ 
+
+    color:rgb(255, 255, 255);
+    font-family: 'Varela Round', sans-serif;
+    background: black;
+    background-image: url(../img/fondo15.jpg);
+
+}
+#logo{
+    margin-left: 20px;
+    width: 100px;    
+}
+
+.table{
+   
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Russo One', sans-serif;
+}
+
+tr{
+    color:  rgb(255, 255, 255);
+}
+
+
+ul{
+    font-family: 'Russo One', sans-serif;
+}
+
+h1{
+    font-family: 'Russo One', sans-serif;
+}
+
+#pixelart{
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+}
+
+#button{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+video { 
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);   
+    z-index: -100;  
+}
+
+#contact{
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+#btAdd{
+    font-family: 'Courier New', Courier, monospace;
+}
+.swal-button {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: rgb(42, 182, 54);
+    font-size: 12px;
+    border: 1px solid rgb(42, 182, 54);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
+  .swal-overlay {
+    background-color: rgba(43, 45, 165, 0.45);
+  }
+
+#button2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+.container .table-responsive::-webkit-scrollbar{
+    width: 5px;
+}
+.container .table-responsive::-webkit-scrollbar-thumb{
+    background: rgb(223, 185, 16);
+    border-radius: 5px;
+    
+
+}
+#tableimg{
+    filter: invert(100%);
+    width: 25px;
+}
