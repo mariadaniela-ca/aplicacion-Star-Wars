@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Home
+        link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+        link(rel="stylesheet", href="css/index.css")
+        link(rel='shortcut icon', href='img/stormtrooper.ico', type='image/x-icon')
+
+    body
+        .container
+            ul.nav.mt-3
+                li.nav-item
+                    img#logo(src="img/logo1.png", alt="Logo")
+                li.nav-item
+                    a.nav-link(href='people') Personajes
+                li.nav-item
+                    a.nav-link(href='planet') Planetas
+                li.nav-item
+                    a.nav-link(href='vehicle') Vehículos
+                li.nav-item
+                    a.nav-link(href='contacto') Contacto
+            video(autoplay='', muted='', loop='')
+                source(src='video/video1.mp4', type='video/mp4')
+        script(src="js/index.js")
+
+                    
+        
